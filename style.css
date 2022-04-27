@@ -51,3 +51,49 @@ h1 {
     background-repeat: no-repeat;
     background-position: right;
 }
+
+.third {
+    background-image: url(sources/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position-y: 100px;
+}
+
+.full-stack {
+    text-align: justify;
+    width: 50%;
+    margin: 10px 20px 50px 70px;
+    padding: 0 10px 0 20px;
+    background-image: linear-gradient(rgba(102, 255, 0, 0.459), rgba(0, 255, 179, 0.404));
+    box-shadow: 10px 10px 20px #108b0091;
+    border-radius: 10px;
+}
+
+.goal {
+    text-align: justify;
+    width: 50%;
+    margin: 10px 20px 50px 70px;
+    padding: 0 10px 0 20px;
+    background-image: linear-gradient(rgba(255, 0, 0, 0.459), rgba(251, 255, 0, 0.404));
+    box-shadow: 10px 10px 20px lightcoral;
+    border-radius: 10px;
+}
+
+#exp {
+    margin-left: 50px;
+}
+
+#full-stack {
+    border-left: 5px solid;
+    border-color: crimson;
+}
+
+#goal {
+    border-left: 7px solid;
+    border-image: linear-gradient(orange, red);
+    border-image-slice: 1;
+}
+
+footer {
+    margin: 20px;
+    text-align: center;
+}
